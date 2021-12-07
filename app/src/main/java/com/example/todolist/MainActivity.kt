@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
                 etTodoTitle.text.clear()
             }
         }
-        btnDeleteDoneTodos.setOnClickListener { 
+        btnDeleteDoneTodos.setOnClickListener {
             todoAdapter.deleteDoneTodos()
         }
     }
